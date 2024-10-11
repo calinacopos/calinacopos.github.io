@@ -876,7 +876,8 @@ ul.style2 li:first-child
 
 #photo {
     float: left;
-    margin: 5px 30px 20px 0px
+    margin: 5px 30px 20px 0px;
+    border-radius: 10px;    
 }
 
 .floatclear{
