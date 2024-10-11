@@ -649,10 +649,15 @@ ul.style2 li:first-child
   float: right;
 }
 
+.rounded-img{
+    border-radius: 10px;
+}
+
 .card-img {
   width: auto;
   height: 220px;
   margin-top: 0px;
+  align-items: center;
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
@@ -665,7 +670,7 @@ ul.style2 li:first-child
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 40px;
-  margin-left: 0px;
+  margin-left: 10px;
 }
 
 .headings-container {
@@ -961,7 +966,7 @@ ul.style2 li:first-child
 #post3l{
     overflow: hidden;
     margin: 0px 0px 10px 10px;
-    width: 450px;
+    width: 400px;
     font-size: 11pt;
     font-weight: normal;
     color: #454445;
