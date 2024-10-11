@@ -1,4 +1,3 @@
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta name="description" content="" >
@@ -7,23 +6,30 @@
   <link href="http://fonts.googleapis.com/css?family=Commissioner:200,300,400,600,700,900" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="default.css">
   <link href="fonts.css" rel="stylesheet" type="text/css" media="all">
+  <link href='site.css' rel='stylesheet' />
 </head>
 
 <body>
 <div id="wrapper">
     <!-- HEADER --> 
-	<div id="header">
+	<div id="header" style="height:120px;" class="span12">
         <div id="logo">
             <h1><a> Calina Copos </a></h1>
-            <span>Biology & Mathematics
-		<br>Northeastern University</span>
+            <span>Assistant Professor
+                Biology & Mathematics
+                <p></p>
+                <div style="max-width:1000px; word-wrap:break-word;"><small><em>Center for Theoretical Biological Physics (Member)</em></small></div>
+                <br {display: block; margin: 2px 0;}>
+                <div style="background-color:powderblue;">Northeastern University</div></span>
 	</div>
 		<div id="menu">
 			<ul>
-                <li class="first current_page_item"><a href="index.html" title="Home"><b>About</b></a></li>
-                <li><a href="research.html" title="research"><b>Research</b></a></li>
-                <li><a href="teaching.html" title="teaching"><b>Teaching & Mentoring</b></a></li>
-                <li><a href="publications.html" title="publications"><b>Publications</b></a></li>
+                <li class="first current_page_item"><a href="index.html" title="Home"><b>welcome!</b></a></li>
+                <li><a href="research.html" title="research"><b>research</b></a></li>
+                <li><a href="publications.html" title="publications"><b>publications</b></a></li>
+                <li><a href="group.html" title="group"><b>group</b></a></li>
+                <li><a href="about.html" title="about"><b>about Calina</b></a></li>
+                <li><a href="contact.html" title="contact"><b>contact</b></a></li>    
 			</ul>
 			<br class="clearfix" />
 		</div>      
@@ -37,27 +43,41 @@
         <!-- CONTENT -->
 		<div id="content">
 			<div id="post1">
-                <img src="images/me_bw.jpg" alt="" id="photo" height=180px >
+                <img class="card-img" src="images/CalinaCopos.jpg" alt="" id="photo" height=200px >
 
-                <p>I am an Assistant Professor of Mathematics and Biology at Northeastern University in Boston MA. My research is in developing models and new mathematical tools to tease apart the "internal machinery" of a living cell as it performs different functions from division to migration to organ development. You can find a more detailed description of my research interests by clicking on the Research link.</p>
-<br>
+                <p>Our group is broadly interested in <b>mathematical biology of the cell</b>. <br><br>We are a team of interdisciplinary scientists that develop models and new mathematical tools to tease apart the "internal machinery" of a living cell. Our work combines: 
+                <li margin=20px 0;>mechanics-based <mark>mathematical modeling</mark></li> 
+                <li margin=20px 0>numerical and <mark>computational</mark> methods</li> 
+                <li margin=20px 0><mark>image-based</mark> analysis and inference</li> 
+                <li>collaborations with experimentalists</li>
+                </p>
 <br>
 <br>
 			<div class=title>
-                <span class="byline"><b>Short bio</b></span></div>
+                <span class="byline"><h3 style="color: #1b59a1"><b>Group News</b></h3></span></div>
 
-<table id="table1">
+<table id="table2">
    <colgroup>
        <col width="100">
    </colgroup>
    <tr>
-       <td>2021 - current</td><td>Assistant Professor of Biology & Mathematics<br> Northeastern University </td>
-    </tr>
-    <tr>
-       <td>2020 - 2021</td><td>Assistant Professor of Mathematics & Computational Medicine<br> University of North Carolina Chapel Hill</td>
+<!--       <td><mark><i>Nov 1</i></mark></td><td>Exciting new Biophysics PhD program @ Northeastern! <a href="https://cos.northeastern.edu/admissions/graduate-programs/how-to-apply/">Now accepting applications</a> for Class of 2025. Questions? Get in touch with us.</td>-->
+       <td><mark><i>Oct 8-11</i></mark></td><td>Ying is away deciphering the effect of oral contraceptives on coagulation as part of a WAMB (Women Advancing Mathematical Biology) collaboration. 5 years later, and 2 publications later, Calina is still an active member of <a href="https://awm-math.org/research-networks/wimb/">WAMB Class of 2019</a>!</td>
    </tr>
    <tr>
-       <td>2017 - 2020</td><td>Courant Instructor, Courant Institute of Mathematical Sciences<br>New York University</td>
+       <td><mark><i>Aug 14th</i></mark></td><td><a href="https://www.biorxiv.org/content/10.1101/2024.08.13.607794v1">New paper</a> discovers a system where inner cells are active contributors to group migration.</td>
+    </tr>
+    <tr>
+        <td><mark><i>July 8th</i></mark></td><td>Nidhi starts her <a href="https://careers.northeastern.edu/cooperative-education/">co-op</a> project on intracellular architecture (<em>partly funded by the Northeastern Co-ops to On-Ramp into Research Endeavors</em>).</td>
+    </tr>
+    <tr>
+        <td><mark><i>July 3rd</i></mark></td><td>Ying is awarded the <a href="https://www.ams.org/grants-awards/travel-grants/AMS-SimonsTG">AMS-Simons Travel Grant</a>!!</td>
+   </tr>
+   <tr>
+       <td><mark><i>May 31st</i></mark></td><td>Katie graduates and will pursue a Ph.D. in Mathematics at UW Madison! Her <a href="https://www.biorxiv.org/content/10.1101/2024.06.03.597091v1">paper is submitted</a> for publication! Katie did a lot of great work to understand the molecular origin of collective symmetry breaking.</td>
+   </tr>
+   <tr>
+       <td><mark><i>May 6th</i></mark></td><td>Shawn "graduates" from an intern to an REU in the group working alongside Sam on tissue regeneration.</td>
    </tr>
 </table>
 
@@ -65,70 +85,42 @@
 <br>
 <br>
 			<div class=title>
-                <span class="byline"><b>Awards</b></span></div>
+                <span class="byline"><h3 style="color: #1b59a1"><b>Awards</b></h3></span></div>
 <ul class="style2">
-<li>NSF Division of Mathematical Sciences Grant, Principal Investigator (2020 - 2023)</li>
-<li>Courant Institute Cathleen Morawetz Fellow (2018 - 2019)</li>
+<li>NSF Division of Mathematical Sciences Grant DMS2209494 (2020 - 2024)</li>
 </ul>
 </p>
-
-<br>
-
-<div class=title>
-    <span class="byline"><b>CURRENT GROUP</b></span></div>
-
-<ul class="style2">
-I am excited to welcome postdoctoral, doctoral, and undergraduate students in my group, including ALL underrepresented minorities, first-generation students, and those that come from socio-economically disadvantaged backgrounds. If you are a driven individual and interested in working in an interdisciplinary environment, please get in contact with me via email.
-</ul>
-<br>
-<div class=title>
-    <span class="byline"><b>ALUMNI</b></span></div>
-
-<ul class="style2">
-    <li><a href="http://www-personal.umich.edu/~pczarn/">Paulina Czarnecki</a> (2019), Undergraduate student, <i>Building a mathematical model of the mechanosensitive neuron cell for touch sensation</i> (Now PhD student at Columbia University)</li>
-    <li>Taylor Meredith (2018 - 2019), Undegraduate student, <i>Investigating a model of the neuromuscular junction and its application to Myasthenia Gravis</i></li>
-</ul>
-</p>
-<br>
-
-<hr/>
-<div class=title>
-    <span class="byline"><b>About me</b></span></div>
-
-<ul class="style2"> When I am not at work, I try to spend time outdoors whether it is going for a <a href="images/lyon.jpg" style="text-decoration:none">walk</a>, <a href="images/incatrail.jpg" style="text-decoration:none">hiking</a>, <a href="images/montblanc.jpg" style="text-decoration:none">skiing</a>, biking, or <a href="images/BigSur.jpg" style="text-decoration:none">heading to the beach</a>. I have volunteered with NYUrWIS Girls Mentoring Program and STEM Tutoring Cafe to both mentor and inspire younger generations, especially minority women. I am an advocate to stop food insecurity in our communities and volunteer at <a href="https://www.cityharvest.org/">City Harvest</a> and <a href="https://www.newyorkcares.org/">New York Cares</a> to help provide access to fresh produce and meals.
-</ul>
-			</div> <!-- end post1 -->
-			<br class="clearfix" />
+    </div> <!-- end post1 -->
+	<br class="clearfix" />
 		</div>
         <!-- END CONTENT -->
 
         <!-- SIDEBAR -->
-		<div id="sidebar">
+        <div id="sidebar">
 			<h3 style="color: #1b59a1">Contact</h3>
             <ul>
-		<li class="first"> Office 206K, Mugar Life Sciences Building 
-              <li> Lab 206A, Mugar Life Sciences Building
-              <li> 360 Huntington Ave,<br> Boston MA 02115
-              <li> e-mail: c <dot> copos <i>at</i> northeastern <i>dot</i> edu</a>
+		<li class="first"> Lab space: 206A, Mugar Building 
+              <li> 360 Huntington Ave, Boston MA
+              <li> (We are ADA accessible)
+              <li> <class='email'>c.copos<class="emailbreak" />(at)northeastern.edu
 </ul>
 <br>
 <br>
-<br>
-<h3 style="color: #1b59a1">News</h3>
+<h3 style="color: #1b59a1">Recent & Upcoming Activities</h3>
 <ul>
-        <li class="first"><b>January 4-7, 2023</b>
-        <br>Katie will be presenting her poster on re-discovering the heat equation using experimental data (!) and machine learning techniques at the Joint Mathematics Meetings in Boston MA! Her poster will be up on 12/6 from 3:30-5pm. Come say hi!
-		<li class="first"><b>December 2-7, 2022</b>
-        <br>We'll be at the annual meeting of the American Society of Cell Biology catching up with collaborators and friends, learning about the latest advancements in cell biology, and presenting our work on adhesion-independent directed migration in confined environments (poster 2762!) 
-        <li class="first"><b>October 31, 2022</b>
-        <br>Spooky news! <a href="https://www.mathjobs.org/jobs/list/21341">We are hiring!</a>
-        <li><b>August 4, 2022</b>
-        <br>The search for connection microscale molecular interactions to emergent macroscopic actin structures continues. Our new <a href="https://www.biorxiv.org/content/10.1101/2022.09.06.506753v1">paper</a> on using clustering algorithms on synthetic actin networks is in review. 
+        <li class="first"><b>December 14-17, 2024</b>
+            <br>We will be at the combined <a href="https://www.ascb.org/cellbio2024/">EMBO/American Society of Cell Biology</a> meeting catching up with collaborators and friends, learning about the latest advancements in cell biology, and presenting our work on model insights on different modes of collective migration.
+        <li class="first"><b>October 22, 2024</b>
+            <br>Calina will be an invited speaker at the <a href="https://icqmb.ucr.edu/">Interdisciplinary Center for Quantitative Modeling in Biology</a> at UC Riverside.
+        <li class="first"><b>August 8-9, 2024</b>
+            <br>Ying gave a talk on modes of collective migration at the <a href="https://sites.google.com/view/mbw-2024/home">Mathematical Biosciences Workshop</a> at Penn State University.
+        <li class="first"><b>June 10-14, 2024</b>
+            <br>Ying and Katie presented their individual work at the biannual <a href="https://www.siam.org/conferences-events/past-event-archive/ls24/">SIAM Life Sciences Meeting</a> in Portland OR! Ying, Andreas Buttenschoen (UMass Amherst) and Calina are co-organizing a mini-symposium with a fantastic line-up of experimental and theoretical scientists "Mechanistic Modeling from Inter- to Intra-cellular Phenomena."
+		<li class="first"><b>October 2023 - April 2024</b>
+        <br>Showcasing Katie's findings on collective symmetry breaking, Calina gave invited talks at Boston University (April 22, 2024), Brandeis University (March 21, 2024), UC Davis (November 13, 2023), MIT (November 7, 2023), Greater Boston Area Statistical Mechanics Meeting (October 27, 2023), and Brandeis University (October 3, 2023).  
 </ul>
 <br>
 <br>
-
-
 		</div>
         <!-- END SIDEBAR -->
 

@@ -1,125 +1,158 @@
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta name="description" content="" >
   <meta name="keywords" content="" >
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <link href="http://fonts.googleapis.com/css?family=Commissioner:200,300,400,600,700,900" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/academicons.min.css"/>
   <link rel="stylesheet" type="text/css" href="default.css">
   <link href="fonts.css" rel="stylesheet" type="text/css" media="all">
 </head>
 
 <body>
 <div id="wrapper">
-    <!-- HEADER -->
-    <div id="header">
+    <!-- HEADER --> 
+    <div id="header" style="height:120px;" class="span12">
         <div id="logo">
             <h1><a> Calina Copos </a></h1>
-            <span>Biology & Mathematics
-        <br>Northeastern University</span>
+            <span>Assistant Professor
+                Biology & Mathematics
+                <p></p>
+                <div style="max-width:1000px; word-wrap:break-word;"><small><em>Center for Theoretical Biological Physics (Member)</em></small></div>
+                <br {display: block; margin: 2px 0;}>
+                <div style="background-color:powderblue;">Northeastern University</div></span>
     </div>
         <div id="menu">
             <ul>
-                <li><a href="index.html" title="Home"><b>About</b></a></li>
-                <li><a href="research.html" title="research"><b>Research</b></a></li>
-                <li><a href="teaching.html" title="teaching"><b>Teaching & Mentoring</b></a></li>
-                <li class="current_page_item"><a href="publications.html" title="publications"><b>Publications</b></a></li>
+                <li class="first"><a href="index.html" title="Home"><b>welcome!</b></a></li>
+                <li><a href="research.html" title="research"><b>research</b></a></li>
+                <li class="current_page_item"><a href="publications.html" title="publications"><b>publications</b></a></li>
+                <li><a href="group.html" title="group"><b>group</b></a></li>
+                <li><a href="about.html" title="about"><b>about Calina</b></a></li>
+                <li><a href="contact.html" title="contact"><b>contact</b></a></li>    
             </ul>
             <br class="clearfix" />
-        </div>
-
+        </div>     
+    
     </div>
-
     <!-- END HEADER -->
 
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div id="menu3">
-        <br>
-        <br>
-        <br>
-        <br>
-        <ul>
-            <li><a href="#publi">Referreed publications</a></li>
+    <!-- ICONS -->
+    <div class="iconwrapper">
+        <ul class="nav">
+            <li><a href="https://scholar.google.com/citations?user=53wW8GkAAAAJ&hl=en"><i class="ai ai-google-scholar-square ai-5x"></i></a></li>
+            <li><a href="https://github.com/CoposLab"><i class="fa fa-github fa-5x"></i></a></li>
+            <li><a href="https://www.researchgate.net/scientific-contributions/Calina-Copos-2122007424"><i class="ai ai-researchgate-square ai-5x"></i></a></li>
         </ul>
-        <br class="clearfix"\>
-        <br>
     </div>
+    <!-- END ICONS -->
+
+    <br>
+    <br>
+
     <div id="publications">
         <div class="title">
-			<h2 align="left"><a name="publi">Refereed publications:</a></h2>
+			<h2 align="left"><a name="publi">Publications</a></h2>
 			</div>
-            <ul class="style2">2022
+            <li><mark><i>Collective mechanics of small migrating cell groups</i></mark>
+                <br>W. Shi, S. Gupta, C. Copos, A. Mogilner 
+                <br> To appear in <i>Seminars in Cell and Developmental Biology</i>, 2024</li>
+            <!--<a href="">[pdf]</a. | <a href="">[journal]</a>
+            -->
+            <br>
+            <li><mark><i>Galvanotactic directionality of cell groups depends on group size</i></mark>
+                <br>C. Copos, Y.H. Sun, K.Zhu, Y. Zhang, B. Reid, B. Draper, F. Lin, H. Yue, Y. Bernadskaya, M. Zhao, A. Mogilner
+                <br>Submitted, 2024</li>
+            <a href="papers/Copos2024.pdf">[pdf]</a> | <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11343102/">[pubmed]</a>
             <br>
             <br>
-            <li>M.W. Rostami, B.E. Bannish, K. Glasior, R.L. Pinals, C. Copos, A.T. Dawes. (2022) <i>Bridging global actin network patterns to local molecular dynamics: a combined modeling and maching learning framework"</i>. In review.</li>
-            <a href="papers/Rostami2022.pdf">[pdf]</a> | <a href="https://www.biorxiv.org/content/10.1101/2022.09.06.506753v1.abstract">[bioRxiv]</a>
+            <li><mark><i>Model supports asymmetric regulation across the intercellular junction for collective cell polarization</i></mark>
+                <br>K. Levandosky, C. Copos
+                <br>Submitted, 2024</li>
+            <a href="papers/Levandosky2024.pdf">[pdf]</a> | <a href="https://www.biorxiv.org/content/10.1101/2024.06.03.597091v1.abstract">[bioRxiv]</a> | <a href="https://github.com/CoposLab/Co-polarity">[source code]</a> 
             <br>
             <br>
-            <li>Y. Sun, B. Reid, Y. Zhao, K. Zhu, F. Ferreira, A. Estrada, Y. Sun, B.W. Draper, H. Yue, C. Copos, F. Lin, M. Zhao, A. Mogilner. (2022) <i>Electric field-guided collective motility initiation of large epidermal cell groups</i>. In review.</li>
+            <li><mark><i>Inferring local molecular dynamics from the global actin network structure: A case study of 2D synthetic branching actin networks</i></mark>
+                <br>M.W. Rostami, B.E. Bannish, K. Glasior, R.L. Pinals, C. Copos*, A.T. Dawes*
+                <br>Journal of Theoretical Biology, 2023</li>
+            <a href="papers/Rostami2023.pdf">[pdf]</a> | <a href="https://www.sciencedirect.com/science/article/pii/S0022519323002102">[journal]</a>
+
             <br>
             <br>
-            <li>C. Copos and W. Strychalski. (2022) <i>Actin turnover required for adhesion-independent bleb migration</i>. <u>Fluid</u></li>
+            <li><mark><i>Electric field-guided collective motility initiation of large epidermal cell groups</i></mark>
+                <br>Y. Sun, B. Reid, Y. Zhao, K. Zhu, F. Ferreira, A. Estrada, Y. Sun, B.W. Draper, H. Yue, C. Copos, F. Lin, M. Zhao, A. Mogilner
+                <br>Molecular Biology of the Cell, 2023</li>
+            <a href="papers/Sun2023.pdf">[pdf]</a> | <a href="https://www.molbiolcell.org/doi/abs/10.1091/mbc.E22-09-0391">[journal]</a>
+            <br>
+            <br>
+            <li><mark><i>Actin turnover required for adhesion-independent bleb migration</i></mark>
+                <br> C. Copos and W. Strychalski
+                <br> Fluids, 2022</li>
             <a href="papers/CoposStrychalski2022.pdf">[pdf]</a> | <a href="https://www.mdpi.com/2311-5521/7/5/173">[journal]</a>
             <br>
             <br>
-			<ul class="style2">2021
+            <li><mark><i>Supracellular organization confers directionality and mechanical potency to migrating pairs of cardiopharyngeal progenior cells</i></mark>
+                <br>Y.Y. Bernadskaya, H. Yue, C. Copos, L. Christiaen, A. Mogilner
+                <br>eLife, 2021</li>
+            <a href="papers/BernadskayaYueCopos2021.pdf">[pdf]</a> | <a href="https://elifesciences.org/articles/70977">[journal]</a>
             <br>
             <br>
-            <li>Y.Y. Bernadskaya, H. Yue, C. Copos, L. Christiaen, A. Mogilner. (2021) <i>Supracellular organization confers directionality and mechanical potency to migrating pairs of cardiopharyngeal progenior cells</i>. <u>eLife</u></li>
-            <a href="papers/BernadskayaYue2021.pdf">[pdf]</a> | <a href="https://elifesciences.org/articles/70977">[journal]</a>
+            <li><mark><i>Stress fibers are embedded in a contractile cytoplasmic meshwork</i></mark>
+                <br>T. Vignaud, C. Copos, C. Leterrier, M. Toro-Nahuelpan, Q. Tseng, L. Blanchoin, A. Mogilner, M. Thery, L. Kurzawa 
+                <br>Nature Materials, 2021</li>
+            <a href="papers/VignaudCoposNatMat2021.pdf">[pdf]</a> | <a href="https://www.nature.com/articles/s41563-020-00825-z">[journal]</a>
             <br>
             <br>
-            <li>T. Vignaud, C. Copos, C. Leterrier, M. Toro-Nahuelpan, Q. Tseng, L. Blanchoin, A. Mogilner, M. Thery, L. Kurzawa. (2021) <i>Stress fibers are embedded in a contractile cytoplasmic meshwork</i>. <u>Nature Materials</u></li>
-            <a href="papers/VignaudCoposNatMat2020.pdf">[pdf]</a> | <a href="https://www.nature.com/articles/s41563-020-00825-z">[journal]</a>
-            <br>
-            <br>
-            <li>C. Copos, B. Bannish, K. Glasior, R. Pinals, M. Rostami, A. Dawes. (2021) Connecting actin polymer dynamics across multiple scales. In R. Segal et al. (eds) <i>Using Mathematics to Understand Biological Complexity</i>, Springer.</li>
+            <li><mark><i>Connecting actin polymer dynamics across multiple scales</i></mark>
+                <br>C. Copos, B. Bannish, K. Glasior, R. Pinals, M. Rostami, A. Dawes 
+                <br>In R. Segal et al. (eds) <i>Using Mathematics to Understand Biological Complexity</i>, Springer, 2021</li>
              <a href="papers/CoposSpringerBookChp.pdf">[pdf]</a> | <a href="https://link.springer.com/chapter/10.1007/978-3-030-57129-0_2">[journal]</a> 
             <br>
             <br>
-            <ul class ="style2">2020
-            <li>C. Copos, A. Mogilner. (2020) <i>A hybrid stochastic-deterministic mechanochemical model of cell polarization</i>. <u>Molecular Biology of the Cell</u></li>
-            <a href="papers/CoposMBoC2020.pdf">[pdf]</a> | <a href="https://www.biorxiv.org/content/10.1101/785709v1.abstract">[bioRxiv]</a> | <a href="https://www.molbiolcell.org/doi/10.1091/mbc.E19-09-0549">[journal]</a> | <a href="https://github.com/calinacopos/HybridMechanoChemPolarization">[code]</a> <b>Selected as Featured article</b>
+            <li><mark><i>A hybrid stochastic-deterministic mechanochemical model of cell polarization</i></mark>
+                <br>C. Copos, A. Mogilner
+                <br>Molecular Biology of the Cell, 2020
+                <br><b>Selected as a Highlights from MBoC Selection</b></li>
+            <a href="papers/CoposMBoC2020.pdf">[pdf]</a> | <a href="https://www.molbiolcell.org/doi/10.1091/mbc.E19-09-0549">[journal]</a> | <a href="https://github.com/calinacopos/HybridMechanoChemPolarization">[source code]</a>
             <br>
             <br>
-            <li>Y. Sun, H. Yue, C. Copos, K. Zhu, Y. Zhang, X.Gao, B. Reid, F. Lin, M. Zhao, A. Mogilner. (2020) <i>PI3K inhibition reverses migratory direction of single cells but not cell groups in electric field</i>. In review.
+            <li><mark><i>PI3K inhibition reverses migratory direction of single cells but not cell groups in electric field</i></mark>
+                <br>Y. Sun, H. Yue, C. Copos, K. Zhu, Y. Zhang, X.Gao, B. Reid, F. Lin, M. Zhao, A. Mogilner
+                <br> bioRxiv, 2020.
                 <a href="papers/SunYueCoposBJ2020.pdf">[pdf]</a> | <a href="https://www.biorxiv.org/content/10.1101/2020.08.05.238170v1.abstract">[bioRxiv]</a>
             <br>
             <br>
-            2018
-            <br>
-            <br>
-            <li>C. Copos, R.D. Guy. (2018) <i>A porous viscoelastic model for the cell cytoskeleton</i>. <u>ANZIAM Journal</u></li>
+            <li><mark><i>A porous viscoelastic model for the cell cytoskeleton</i></mark>
+                <br>C. Copos, R.D. Guy
+                <br>ANZIAM Journal, 2018</li>
 <a href="papers/CoposANZIAM2018.pdf">[pdf]</a> | <a href="https://www.cambridge.org/core/journals/anziam-journal/article/porous-viscoelastic-model-for-the-cell-cytoskeleton/6881609876803536915F877BF591918B">[journal]</a> 
             <br>
             <br>
-            2017
+            <li><mark><i>Mechanosensitive adhesion explain stepping motility in amoeboid cells</i></mark>
+                <br>C. Copos, S. Walcott, J.C. del Alamo, E. Bastounis, A. Mogilner, R.D. Guy 
+                <br>Biophysical Journal, 2017
+                <br><b>Selected as a</b> <a href="https://www.cell.com/biophysj/fulltext/S0006-3495(17)30559-3"><b>New & Notable article</b></a></li>
+            <a href="papers/CoposBJ2017.pdf">[pdf]</a> | <a href="https://www.cell.com/biophysj/comments/S0006-3495(17)30449-6">[journal]</a>
             <br>
             <br>
-            <li>C. Copos, S. Walcott, J.C. del Alamo, E. Bastounis, A. Mogilner, R.D. Guy. (2017) <i>Mechanosensitive adhesion explain stepping motility in amoeboid cells</i>. <u>Biophysical Journal</u></li>
-            <a href="papers/CoposBJ2017.pdf">[pdf]</a> | <a href="https://www.cell.com/biophysj/comments/S0006-3495(17)30449-6">[journal]</a> <b>Selected as a</b> <a href="https://www.cell.com/biophysj/fulltext/S0006-3495(17)30559-3"><b>New & Notable article</b></a>
-            <br>
-            <br>
-            2015
-            <br>
-            <br>
-            <li>W. Strychalski, C. Copos, O.L. Lewis, R.D. Guy. (2015) <i>A poroelastic immersed boundary method with applications to cell biology</i>. <u>Journal of Computational Physics</u></li>
+            <li><mark><i>A poroelastic immersed boundary method with applications to cell biology</i></mark>
+                <br>W. Strychalski, C. Copos, O.L. Lewis, R.D. Guy 
+                <br>Journal of Computational Physics, 2015</li>
             <a href="CoposJCP2015.pdf">[pdf]</a> | <a href="https://www.sciencedirect.com/science/article/pii/S0021999114006780">[journal]</a>
             <br>
             <br>
-            Prior to 2015
-            <br>
-            <br>
-            <li>C. Bodea, C. Copos, M.F. Der, D. O'Neal, J.A. Davis. (2011) <i>Shared autocorrelation property of sequences</i>. <u>IEEE: Transactions on Information Theory</u>, Vol. 57, 3805-3809.</li>
+            <li><mark><i>Shared autocorrelation property of sequences</i></mark>
+                <br>C. Bodea, C. Copos, M.F. Der, D. O'Neal, J.A. Davis
+                <br>IEEE: Transactions on Information Theory, 2011</li>
             <a href="CoposIEEE.pdf">[pdf]</a> | <a href="https://ieeexplore.ieee.org/abstract/document/5773018">[journal]</a>
             <br>
             <br>
-            <li>V. Werner et al. (2008) <i>Evidence for the microscopic formation of mixed-symmetry states from magnetic moment measurements</i>. <u>Physical Review C</u>, 78(3): 031301-305.</li>
+            <li><mark><i>Evidence for the microscopic formation of mixed-symmetry states from magnetic moment measurem    ents</i></mark>
+                <br>V. Werner et al. 
+                <br>Physical Review C, 2008</li>
             <a href="CoposPhysRevC">[pdf]</a> | <a href="https://journals.aps.org/prc/abstract/10.1103/PhysRevC.78.031301">[journal]</a>
             </ul>
             <br>
