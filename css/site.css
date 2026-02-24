@@ -15,6 +15,14 @@
       flex:1;
       }
 
+.news-scroll {
+  max-height: 500px;   /* adjust height as needed */
+  overflow-y: auto;    /* shows scrollbar only when needed */
+  /*border: 1px solid #ddd;*/
+  padding: 4px;
+}
+
+
 /* Mobile rules */
 @media only screen and (max-width:640px) {
 .sidebar {
